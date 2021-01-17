@@ -7,7 +7,7 @@ Bot.once('ready', () => {
 
 Bot.on('message', (message) => {
 	if (message.content === 'ping') {
-		message.channel.send('Pong!');
+		message.channel.send('\*missed\*');
 	}
 });
 
