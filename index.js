@@ -2,7 +2,7 @@ const Discord = require('Discord');
 const Bot = new Discord.Client();
 
 Bot.once('ready', () => {
-	console.log('ready');
+	console.log('huea');
 });
 
 Bot.on('message', (message) => {
